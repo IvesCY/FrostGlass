@@ -27,6 +27,8 @@
 
 **[下载毛玻璃 v1.0.0 便携版](dist/毛玻璃-v1.0.0-便携版.zip)**
 
+也可以在 [Releases](https://github.com/IvesCY/FrostGlass/releases) 页面下载最新版本。
+
 解压后双击 `毛玻璃.exe`。`毛玻璃.exe.config` 必须和 exe 放在同一个文件夹。
 
 ### 系统要求
