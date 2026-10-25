@@ -19,7 +19,8 @@ jobs:
       - name: Package portable app
         shell: powershell
         run: |
-          Compress-Archive -Path @('毛玻璃.exe', '毛玻璃.exe.config', 'README.md') `
+          $exe = Get-ChildItem -Filter '*.exe' | Select-Object -First 1
+          Compress-Archive -Path @($exe.FullName, ($exe.Name + '.config'), 'README.md') `
             -DestinationPath 'FrostGlass-portable.zip' -Force
 
       - name: Upload portable package
