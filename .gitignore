@@ -1,0 +1,21 @@
+# Build output
+/毛玻璃.exe
+/bin/
+/obj/
+*.pdb
+*.user
+*.suo
+.vs/
+
+# Local test / development artifacts
+/dev/
+/test/
+/testbuild/
+/testui/
+/clicksink/
+/chromeprobe/
+/shots-final/
+*.log
+
+# Keep the prebuilt package in dist/
+!dist/*.zip
